@@ -587,8 +587,8 @@ export default function Home() {
           <div className="ml-3 font-bold leading-10 max-sm:leading-8">{t('title')}</div>
         </div>
         <div className="flex items-center gap-1">
-          <Button title={t('github')} variant="ghost" size="icon" className="h-8 w-8">
-            <a href="https://github.com/Amery2010/TalkWithGemini" target="_blank">
+          <Button title={t('discord')} variant="ghost" size="icon" className="h-8 w-8">
+            <a href="https://discord.gg/QQeFcekQyx" target="_blank">
               <Github className="h-5 w-5" />
             </a>
           </Button>
