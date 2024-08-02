@@ -588,7 +588,7 @@ export default function Home() {
         </div>
         <div className="flex items-center gap-1">
           <Button title={t('discord')} variant="ghost" size="icon" className="h-8 w-8">
-            <a href="https://discord.gg/QQeFcekQyx" target="_blank">
+            <a href="https://discord.com/servers/atl5d-1244450286337003520" target="_blank">
               <Github className="h-5 w-5" />
             </a>
           </Button>
