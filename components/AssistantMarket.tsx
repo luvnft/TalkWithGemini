@@ -121,10 +121,10 @@ function Assistant({ open, onClose, onSelect, onLoaded }: AssistantProps) {
           <div className="flex gap-2">
             <Select defaultValue="all" onValueChange={(value) => handleSelectTag(value)}>
               <SelectTrigger className="w-[180px]">
-                <SelectValue placeholder="请选择分类" />
+                <SelectValue placeholder="Please select a category" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">全部</SelectItem>
+                <SelectItem value="all">All</SelectItem>
                 {tagList.map((tag) => {
                   return (
                     <SelectItem key={tag} value={tag}>
